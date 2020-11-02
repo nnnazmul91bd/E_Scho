@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    flex: 0 0 auto;
+    font-family: 'Raleway', sans-serif;
+   /*  overflow: hidden; */
+   /* overflow-x: hidden; */
+}
+body{
+
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+a, a:hover{
+    text-decoration: none;
+}
+h1{}
+.container{
+    width: calc(100% - 160px);
+    margin: auto;
+    }
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-3{
+    width: 33.33%;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.col-4{
+    width: 25%;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.padding_y{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
+/*============ banner section? ============*/
+.banner_section{
+    background: #f0fff0;
+}
+header{
+    top: 0;
+    background: honeydew;
+    left: 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #56548c40;
+    position: fixed;
+}
+.logo{
+    width: 15%;
+}
+.logo a{}
+.logo a img{}
+nav{
+    width: 85%;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{
+    margin-right: 5px;
+}
+nav ul li a{
+    color: #56548C;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 500;
+    display: block;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+nav ul li a:hover{
+    background: #56548c;
+    color: white;
+    border-radius: 30px;
+}
+
+/*=========== banner content part ===========*/
+.banner_content{
+    width: 45%;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.banner_span{
+    color: #21b573!important;
+    letter-spacing: 0!important;
+    font-size: 61px!important;
+}
+.banner_content span{
+    color: #df615c;
+    letter-spacing: 1px;
+}
+h1{
+    font-size: 61px;
+    line-height: 1;
+    color: #56548c;
+    margin: 20px 0;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.7;
+    color: #39393b;
+    margin-bottom: 10px;
+}
+.btn{}
+.btn:hover{
+    background: #56548c;
+    color: white;
+    border: 1px solid #56548c;
+    border-radius: 30px;
+}
+.banner_content a{
+    color: #413960;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: inline-block;
+    transition: all 0.3s;
+    border: 1px solid #56548c;
+    margin-top: 30px;
+}
+.banner_img{
+    width: 55%;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+.banner_img img{}
+
+/*========= features section start here =========*/
+.feature_section{
+    padding: 50px 0;
+}
+.feature{
+    background: honeydew;
+    text-align: center;
+    padding: 30px 60px;
+    border-radius: 10px;
+    transition: all 0.3s; 
+}
+.feature:hover{
+    box-shadow: 0 8px 6px -6px #00000033;
+    background: white;
+}
+.feature img{
+    height: 80px;}
+.feature h3{
+    font-size: 20px;
+    margin: 8px 0;
+    color: #413960;
+}
+.feature p{
+    margin: 0;
+    font-size: 15px;
+}
+/*================ course_section ================*/
+.course_section{
+    padding: 100px 0;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.heading h2{
+    font-size: 40px;
+    line-height: 1;
+    color: white;
+}
+.course{
+    box-shadow: 0 8px 6px -6px #00000024;
+    /* border-radius: 5px; */
+    padding: 15px;
+}
+.course img{
+    transition: all 0.s;
+    transition: all 0.6s;
+}
+.course img:hover{
+    transform: scale(1.03);
+}
+.course h3{
+    font-size: 20px;
+    margin: 8px 0;
+    color: #413960;
+}
+.course span{
+    font-size: 18px;
+    display: block;
+    color: #413960;
+}
+.course a{
+        background: #56548c;
+        color: white;
+        border: 1px solid #56548c;
+        border-radius: 30px;
+        padding: 8px 15px;
+        display: inline-block;
+        margin: 15px 0;
+        transition: all 0.3s;
+        font-size: 18px;
+        margin: 30px 0;
+}
+.course a:hover{
+    color: #413960;
+    border: 1px solid #56548c;
+    background: transparent;
+}
+.course ul{
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+.course ul li{
+    color: #413960;
+    font-size: 14px;
+}
+.course ul li i{}
+/*================= testtimonial =================*/
+
+.cl_img{
+    width: 12%;
+    padding: 20px;
+}
+
+.cl_comment{
+    width: 56%;
+    padding: 20px;
+
+}
+
+/* .testtimonial .flex{
+    justify-content: center;
+    align-items: center;
+} */
+.owl{
+    background: url('../images/test.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+.owl .owl_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.owl .owl_item .cl_comment{}
+.owl .owl_item .cl_comment p{
+       color: white;
+       font-size: 15px;
+       line-height: 1.8;
+}
+.owl .cl_img img{
+    border-radius: 50%;
+}
+/*================ footer ================*/
+footer{
+    background: #2A323D;
+    padding-top: 50px;
+}
+footer p{
+   color: white;
+    font-size: 14px;
+}
+footer ul{}
+footer ul li{
+   color: white;
+}
+
+footer ul li strong{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    line-height: 16px;
+}
+footer ul li a{
+    color: white;
+    font-size: 14px;
+    padding: 5px 0;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s;
+    color: rgba(255,255,255,.52);
+    line-height: 18px;
+}
+footer ul li a:hover{
+    /* color: #56548C; */
+    color: white;
+}
+.copy_right{
+    margin: 0;
+    font-size: 15px;
+    padding-top: 30px 0 10px;
+    text-align: cw;
+    text-align: center;
+    padding-top: 10;
+    padding: 30px 0 10px;
+}
+.copy_right a{
+    transition: all 0.3s;
+    /* color: white; */
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255,255,255,.52);
+}
+.copy_right a:hover{
+    color: #fff;
+}
+
